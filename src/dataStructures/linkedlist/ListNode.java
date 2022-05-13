@@ -41,6 +41,7 @@ public class ListNode {
         ListNode toAdd = new ListNode(x);
         ListNode temp = head;
         head = toAdd;
+
         head.next = temp;
     }
     static void print(ListNode head){
