@@ -1,7 +1,11 @@
-package dataStructures.linkedlist;
+package dataStructures.linkedlist.singlyLinkedList;
+
+import dataStructures.linkedlist.singlyLinkedList.ListNode;
 
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,6 +24,7 @@ public class Main {
         System.out.println("Created list");
         ListNode head = ListNode.create(arr);
         ListNode.print(head);
+
 
 //        System.out.println(ListNode.size(head));
 

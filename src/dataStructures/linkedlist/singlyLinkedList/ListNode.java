@@ -1,6 +1,4 @@
-package dataStructures.linkedlist;
-
-import java.util.List;
+package dataStructures.linkedlist.singlyLinkedList;
 
 public class ListNode {
     ListNode next;
